@@ -25,3 +25,5 @@ console.log(delProp) //true
 
 // O operdaor delete retorna true para uma propiedade inexistente
 console.log(delPropInexistente) //true
+
+// O operador delete não remove propriedades herdadas de outro objeto, e aí sim, neste caso, retornará false se tentarmos fazer isso. Vamos entender melhor o tema “heranças” mais adiante no curso.
