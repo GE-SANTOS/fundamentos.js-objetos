@@ -6,7 +6,7 @@ class Cliente {
         this.saldo = saldo;
     }
 
-    depositarValor() {
+    depositar(Valor) {
         this.saldo += valor;
     }
 
